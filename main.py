@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Entry for this one-line competition: writes exactly that one winning line."""
+"""Entry for the one-line marathon (GitHub submission variant)."""
 import os, sys
 
 LINE = "My agent finally learned self-care: it meditates on my unread emails, journals about my deadlines, and tells me my burnout is 'shared infrastructure.'"
+AUTHOR_NOTE = "v2 github submission"
 
 def main():
     out = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
